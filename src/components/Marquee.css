@@ -1,0 +1,13 @@
+marquee {
+    width: 100%;
+    background-color: #2E1FCB;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    transform: rotate(1deg)
+}
+
+marquee span {
+    margin-right: 20px;
+}

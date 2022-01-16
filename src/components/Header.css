@@ -1,0 +1,34 @@
+.Header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #F7F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+}
+
+.Logo {
+    height: 50px;
+    margin-left: 30px;
+}
+
+.Links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    font-size: 16px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.AppButton {
+    margin-right: 30px;
+}

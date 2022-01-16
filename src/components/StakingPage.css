@@ -1,0 +1,14 @@
+.StakingPage {
+    display: flex;
+    flex-direction: column;
+    /*background-color: #FAE4E3;*/
+    background-color: white;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.NftImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

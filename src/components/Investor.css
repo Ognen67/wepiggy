@@ -1,0 +1,13 @@
+.Investor {
+    width: 200px;
+}
+
+.Investor img {
+    width: 100px;
+}
+
+@media only screen and (max-width: 900px) {
+    .Investor img {
+        margin-right: 0;
+    }
+}

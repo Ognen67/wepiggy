@@ -1,0 +1,16 @@
+.BigBlueButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 60px;
+    border-radius: 30px;
+    border: 1px solid #2E1FCB;
+    color: #2E1FCB;
+    margin-right: 10px;
+}
+
+.BigBlueButton:hover {
+    background-color: #f6f6f6;
+    cursor: pointer;
+}

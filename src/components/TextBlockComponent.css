@@ -1,0 +1,22 @@
+.TextBlockComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.TextBlockComponent p {
+    text-align: left;
+    color: #010001;
+    margin-bottom: 50px;
+}
+
+.TextBlockComponent a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1400px) {
+    .TextBlockComponent {
+        width: 100%;
+    }
+}

@@ -1,0 +1,93 @@
+.MainBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    height: 715px;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.MainBanner .Title {
+    font-size: 48px;
+    text-align: left;
+    color: #111021;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+.MainBannerLeft {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.MainBannerLeft p {
+    text-align: left;
+    color: #959498;
+    margin-bottom: 60px;
+}
+
+.MediaIcons {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.MediaIcon {
+    margin-right: 20px;
+}
+
+.MainBannerRight {
+    display: flex;
+    justify-content: flex-end;
+    width: fit-content;
+}
+
+.NftImage {
+    width: 600px;
+    height: 600px;
+}
+
+.MainBannerButtons {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 900px) {
+    .MainBanner {
+        width: 100%;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        height: fit-content;
+        margin-top: 0;
+        justify-content: center;
+        padding-top: 0;
+
+    }
+    .NftImage {
+        width: 450px;
+        height: 450px;
+        margin-left: 20px;
+    }
+
+    .MainBanner .Title {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .MainBannerLeft {
+        margin: 20px;
+        width: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .MainBannerLeft p {
+        margin-bottom: 15px;
+    }
+}
+
+
