@@ -1,7 +1,6 @@
 import React from 'react';
-import {Button} from "@mui/material";
 import "./NftImage.css"
-import RoundButton from "./RoundButton";
+import ActionButton from "./ActionButton";
 
 function NftImage({image}) {
     return (
@@ -13,7 +12,7 @@ function NftImage({image}) {
                     <h3>Borrow APR</h3>
                     <h3>19.79%</h3>
                 </div>
-                <RoundButton title="SOD 23.81% APR"/>
+                <ActionButton borderColor="#FF4C94" color="white" fontColor="#FF4C94" title="SOD 23.81% APR"/>
             </div>
         </div>
     );

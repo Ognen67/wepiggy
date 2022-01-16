@@ -5,8 +5,8 @@ import NftImage from "./NftImage";
 function NftDepositWithdraw(props) {
     return (
         <div className="NftDepositWithdraw">
-                <div className="StakingPage">
                     <h1>NFT Deposit/Withdraw</h1>
+                <div className="StakingPage">
                     <div className="NftImages">
                         <NftImage image="https://lh3.googleusercontent.com/Vsuqm5HOgx5ctn9_KovmfBormeUwS1mWdhpuzD1fZLS6N659fwZ3wrvd2RGgsyud-BAlN9biKzPU5zgvk27U-1fE3nqqPk_E8we25w=w600"/>
                         <NftImage image="https://lh3.googleusercontent.com/99fBJjLpSoJUSzxldLWMHKS9znQB4CSAYetsBHzVVOXzg6y-X4j_mzhVryuCA_YQFJXHtzd_VU6XaDUyiwQbtYhQ8__uCI6jRZS5=w600"/>

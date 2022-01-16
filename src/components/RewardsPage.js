@@ -11,7 +11,7 @@ function RewardsPage(props) {
                     penalties.</p>
             </div>
             <div className="RewardsPageLocked">
-                <div className="RewardsPageLockedTab">
+                <div className="RewardsPageLockedTab" style={{marginRight: 80}}>
                     <div className="TabInfo">
                         <h3>Your Locked + Staked SOD</h3>
                         <h2>$0</h2>
