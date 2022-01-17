@@ -5,6 +5,7 @@
     justify-content: flex-start;
     margin-bottom: 300px;
     flex-wrap: wrap;
+    margin-top: 0;
 }
 
 .RewardsPageInfo {
@@ -23,8 +24,10 @@
 }
 
 .RewardsPageInfo p {
+    font-family: "Poppins Light", serif;
     margin-left: 180px;
 }
+
 
 .RewardsPageLocked {
     width: 100%;
@@ -40,7 +43,8 @@
 .RewardsPageLockedTab {
     display: flex;
     justify-content: center;
-    height: 180px;
+    min-height: 200px;
+    height: fit-content;
     flex: 0.4;
     border-radius: 30px;
     border: 1px solid gray;
@@ -53,9 +57,12 @@
     justify-content: flex-start;
 }
 
-.TabInfo h3 {
+.TabInfo p {
     font-family: "Poppins Light", serif;
+}
 
+.TabInfo h2 {
+    font-family: "Poppins Light", serif;
 }
 
 .RewardsPageBlocks {
@@ -77,51 +84,85 @@
     min-height: 300px;
     height: fit-content;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-    border-radius: 30px;
+    border-radius: 15px;
     margin-bottom: 30px;
     padding: 20px;
 }
 
 .RewardsPageBlockLeftItem p {
+    font-family: "Poppins Light", serif;
     text-align: left;
 }
 
 .UnlockedSod {
-    width: 1100px;
-    height: fit-content;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-    border-radius: 30px;
+    width: 1000px;
+    height: 200px;
+    /*box-shadow: 0px 3px 15px rgba(0,0,0,0.2);*/
+    border-radius: 15px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 30px;
     flex-wrap: wrap;
 }
 
+
+hr {
+    border: 1px dotted #E9E9E8;
+    color: #E9E9E8;
+    background-color: #fff;
+    width: 85%;
+}
+
+.RewardsPageBlockRight {
+    width: 1100px;
+    height: fit-content;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+
 .UnlockedSodCol {
+    width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
+.UnlockedSodCol {
+    font-family: "Poppins Light", serif;
+}
+
 @media only screen and (max-width: 900px) {
+    .RewardsPage {
+    }
+
     .RewardsPageLocked {
         height: fit-content;
         flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
     }
 
+
     .RewardsPageInfo h1 {
-        margin-left: 0;
+        margin: 20px;
+        text-align: left;
     }
 
     .RewardsPageInfo p {
-        margin-left: 0;
+        margin: 20px;
+        text-align: left;
+    }
+
+    .RewardsPageLockedTab:nth-child(1) {
+        margin-right: 0;
     }
 
     .RewardsPageLockedTab {
+        width: 400px;
         height: fit-content;
         margin-bottom: 20px;
-        padding: 20px;
+        margin-right: 0;
     }
 
     .RewardsPageBlocks {
@@ -133,9 +174,16 @@
     }
 
     .UnlockedSod {
-        margin-left: 0;
-        margin-top: 30px;
-        flex-direction: column;
+        margin: 0;
+        display: flex;
+        justify-content: center;
         width: 400px;
+
+        flex-wrap: wrap;
+    }
+
+    .RewardsPageBlockRight {
+        width: 400px;
+
     }
 }

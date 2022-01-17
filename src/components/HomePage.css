@@ -5,6 +5,7 @@
     align-items: center;
     width: 100%;
     margin-bottom: 100px;
+    margin-top: 105px;
 }
 
 .Blocks {
@@ -14,12 +15,12 @@
     align-items: center;
     width: 100%;
     background-color: #FAFBFB;
-    margin-bottom: 100px;
+
 }
 
 #Blocks {
     width: 100%;
-    height: 100px;
+    height: 50px;
     background-color: #FAFBFB;
 }
 

@@ -43,7 +43,9 @@ function HomePage(props) {
                                    buttonText="Details"
                                    buttonLink="https://docs.sodium.fi/"
                 />
+                <div style={{height: 200, backgroundColor: "#FAFBFB"}}>
 
+                </div>
             </div>
             <Banner img="https://wepiggy.static.fortop.site/static/photo.1d5bb9e2.png" text="asd"/>
             <div className="ExploreSodium">

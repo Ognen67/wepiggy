@@ -36,12 +36,12 @@ export default function Navbar() {
 
                     <li className="items"><NavLink onClick={toggleNav} className={({isActive}) => (isActive ? 'is-active link' : 'link')}
                                                    to="/home">Home</NavLink></li>
-                    <li className="items"><NavLink onClick={toggleNav} className={({isActive}) => (isActive ? 'is-active link' : 'link')}
-                                                   to="/staking">Staking</NavLink></li>
+                    {/*<li className="items"><NavLink onClick={toggleNav} className={({isActive}) => (isActive ? 'is-active link' : 'link')}*/}
+                    {/*                               to="/staking">Staking</NavLink></li>*/}
                     <li className="items"><NavLink onClick={toggleNav} className={({isActive}) => (isActive ? 'is-active link' : 'link')}
                                                    to="/rewards">Rewards</NavLink></li>
-                    <li className="items"><NavLink onClick={toggleNav} className={({isActive}) => (isActive ? 'is-active link' : 'link')}
-                                                   to="/nft-deposit-withdraw">NFT Deposit/Withdraw</NavLink></li>
+                    {/*<li className="items"><NavLink onClick={toggleNav} className={({isActive}) => (isActive ? 'is-active link' : 'link')}*/}
+                    {/*                               to="/nft-deposit-withdraw">NFT Deposit/Withdraw</NavLink></li>*/}
                     <li className="items"><NavLink onClick={toggleNav} className={({isActive}) => (isActive ? 'is-active link' : 'link')}
                                                    to="#">DAO</NavLink></li>
                     <li className="items"><NavLink onClick={toggleNav} className={({isActive}) => (isActive ? 'is-active link' : 'link')}

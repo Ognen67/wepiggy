@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import "./BlockComponent.css"
 import TextBlockComponent from "./TextBlockComponent";
-import Fade from 'react-reveal/Fade';;
+import Fade from 'react-reveal/Fade';
 
 function BlockComponent({image, title, text, buttonText, buttonLink}) {
     return (

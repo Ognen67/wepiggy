@@ -6,6 +6,7 @@
     height: fit-content;
     background-color: #FBE4E2;
     padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .AboutPageBanner {
@@ -38,12 +39,12 @@
     left: 25%;
 }
 
-.AboutPageAssetsAsset h1{
+.AboutPageAssetsAsset h1 {
     color: #DA2E7D;
     font-size: 50px;
 }
 
-.AboutPageAssetsAsset p{
+.AboutPageAssetsAsset p {
     color: #9C7A74;
 }
 
@@ -59,4 +60,19 @@
 .AboutPageInfo p {
     color: #9C7A74;
     text-align: left;
+}
+
+@media only screen and (max-width: 900px) {
+    .PiggyImage {
+        display: none;
+    }
+
+    .AboutPageAssets {
+        display: none;
+    }
+
+    .AboutPageInfo {
+        margin-top: 150px;
+        width: 400px;
+    }
 }
